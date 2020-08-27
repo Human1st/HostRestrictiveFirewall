@@ -5,7 +5,6 @@ HostRestrictiveFirewall est un outil pour écrire des règles de pare-feu autori
 ```
 sh HostRestrictiveFirewall.sh 20000 30000
 ```
-20000 et 30000 étant les ports que vous voulez
 
 > :warning: ATTENTION
 > Ne pas mettre des ports nécessitant des connexions externes
