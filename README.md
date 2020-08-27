@@ -11,5 +11,6 @@ sh HostRestrictiveFirewall.sh 20000 30000
 
 Comment trouver tout les ports de votre serveur en une simple commande ?:
 ```
+cd /chemin/du/dossier/de/vos/serveurs
 find . -name "server.properties" -exec grep "server.port" {} \;
 ```
