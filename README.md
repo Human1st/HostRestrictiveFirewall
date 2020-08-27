@@ -7,7 +7,4 @@ sh HostRestrictiveFirewall.sh 20000 30000
 ```
 
 > :warning: ATTENTION
-> Ne pas mettre des ports nécessitant des connexions externes
-
-> :warning: ATTENTION
 > iptables doit être installé (apt install iptables)
