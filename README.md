@@ -8,7 +8,7 @@ sh HostRestrictiveFirewall.sh 20000 30000
 20000 et 30000 étant les ports que vous voulez
 
 > :warning: ATTENTION
-> Attention de ne pas mettre des ports nécessitant des connexions externes
+> Ne pas mettre des ports nécessitant des connexions externes
 
 > :warning: ATTENTION
 > iptables doit être installé (apt install iptables)
