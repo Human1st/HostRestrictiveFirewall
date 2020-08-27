@@ -1,16 +1,14 @@
 # HostRestrictiveFirewall
 ## Français:
-Comment utiliser mon outil ?
+
+HostRestrictiveFirewall est un outil pour écrire des règles de pare-feu autorisant uniquement un serveur à accéder à une certaine liste de ports.
 ```
 sh HostRestrictiveFirewall.sh 20000 30000
 ```
-20000 et 30000 étant les ports de votre serveur
+20000 et 30000 étant les ports que vous voulez
 
 > :warning: ATTENTION
-> Ne mettez pas le port votre port de connexion des joueurs dans le programme sinon plus personne ne pourrait se connecter (Le port par défaut est 25565)
+> Attention de ne pas mettre des ports nécessitant des connexions externes
 
-Comment trouver tout les ports de votre serveur en une simple commande ?:
-```
-cd /chemin/du/dossier/de/vos/serveurs
-find . -name "server.properties" -exec grep "server.port" {} \;
-```
+> :warning: ATTENTION
+> iptables doit être installé (apt install iptables)
